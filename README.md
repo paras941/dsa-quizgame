@@ -1,48 +1,82 @@
-🎯 Quiz Game (JavaScript Project)
+# 🎯 Quiz Game (JavaScript Project)
 
-🧩 Overview
+An interactive multiple-choice quiz application built using **HTML, CSS, and JavaScript** to test programming knowledge with real-time scoring and feedback.
 
-This is a simple interactive Quiz Game built using HTML, CSS, and JavaScript.
-It tests your programming knowledge by asking multiple-choice questions and gives you a score at the end.
+🔗 **Live Demo:** https://paras941.github.io/dsa-quizgame/
 
-- Project Preview : [live demo here](https://paras941.github.io/dsa-quizgame/)
+---
 
-🏗️ Project Structure
+## 🧩 Project Overview
 
-📁 Quiz-Game
- ┣ 📜 index.html      → Structure of the quiz app.
- ┣ 📜 style.css       → Styling and layout.
- ┗ 📜 script.js       → Quiz logic and interactivity.
+| Feature | Description |
+|--------|-------------|
+| Purpose | Test programming knowledge through MCQs |
+| Tech Stack | HTML, CSS, JavaScript |
+| Mode | Single-player, browser-based |
+| Scoring | Real-time score update |
+| Feedback | Correct / Incorrect highlighting |
+| Replay | Restart quiz anytime |
 
- 🚀 How It Works
-1. Start Screen
-- Welcome screen with the quiz title and description.
-- Click the Start Quiz button to begin.
+---
 
-2. Quiz Screen
+## 🏗️ Project Structure
 
-- Displays one question at a time with four answer options.
-- Selecting an answer immediately shows if it is correct or wrong.
-- Your score updates in real-time.
-- A progress bar indicates how far you are in the quiz.
+| File | Role |
+|------|------|
+| `index.html` | Quiz layout and structure |
+| `style.css` | UI styling and responsive design |
+| `script.js` | Game logic, questions, and scoring |
 
-3. Result Screen
+---
 
-- Shows your final score and a custom message based on performance.
-- Includes a Restart Quiz button to play again.
+## 🚀 How It Works
 
-🧠 Key Features
+### 1️⃣ Start Screen
 
-- Dynamic quiz questions and answers.
-- Tracks score and current question number.
-- Highlights correct and incorrect answers.
-- Provides feedback messages according to performance.
-- Simple progress bar for visual feedback.
-- Restart option to replay the quiz.
+| Feature | Description |
+|--------|-------------|
+| Title | Quiz name and description |
+| Action | Start Quiz button |
+| Function | Initializes quiz and loads first question |
 
-💡 Learnings
+### 2️⃣ Quiz Screen
 
-- Understanding DOM manipulation.
-- Using event listeners for interactive elements.
-- Managing game state (current question, score).
-- Giving real-time feedback to users.
+| Feature | Description |
+|--------|-------------|
+| Questions | One question at a time |
+| Options | Four multiple-choice answers |
+| Feedback | Instant correct / wrong highlight |
+| Score | Updates dynamically |
+| Progress | Visual progress bar |
+
+### 3️⃣ Result Screen
+
+| Feature | Description |
+|--------|-------------|
+| Final Score | Total correct answers |
+| Message | Performance-based feedback |
+| Restart | Replay quiz without refreshing page |
+
+---
+
+## 🧠 Key Features
+
+| Feature | Benefit |
+|--------|---------|
+| Dynamic Questions | Randomized and scalable |
+| State Management | Tracks score and current index |
+| UI Feedback | Highlights answers visually |
+| Progress Bar | Shows quiz completion status |
+| Restart Option | Allows multiple attempts |
+
+---
+
+## 💡 Learnings
+
+| Concept | Applied Skill |
+|--------|---------------|
+| DOM Manipulation | Dynamic question & option rendering |
+| Event Handling | Click events and user interaction |
+| State Management | Score, index, progress tracking |
+| Logic Building | Answer validation and flow control |
+| UI Feedback | Real-time response handling |
