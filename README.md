@@ -5,7 +5,7 @@
 This is a simple interactive Quiz Game built using HTML, CSS, and JavaScript.
 It tests your programming knowledge by asking multiple-choice questions and gives you a score at the end.
 
-- Project Preview : [live demo here](https://paras941.github.io/dsa-quizgame-JS/)
+- Project Preview : [live demo here](https://paras941.github.io/dsa-quizgame/)
 
 🏗️ Project Structure
 
