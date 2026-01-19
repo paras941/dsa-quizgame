@@ -2,7 +2,7 @@
 
 An interactive multiple-choice quiz application built using **HTML, CSS, and JavaScript** to test programming knowledge with real-time scoring and feedback.
 
-🔗 **Live Demo:** https://paras941.github.io/dsa-quizgame/
+🔗 **Live Demo:[Click Here](https://paras941.github.io/dsa-quizgame/)
 
 ---
 
